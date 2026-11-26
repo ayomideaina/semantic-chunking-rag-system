@@ -22,3 +22,6 @@ Thumbs.db
 
 # Local ChromaDB storage
 chroma_data/
+
+# Local test files
+test*.txt
