@@ -1,0 +1,24 @@
+# Environment variables (never commit real secrets)
+.env
+
+# Dependencies
+node_modules/
+
+# Uploaded files and local vector store data
+data/
+rag_data/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
+
+# Local ChromaDB storage
+chroma_data/
